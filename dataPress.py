@@ -3,7 +3,7 @@ Created on Fri May 26 12:00:17 2017
 @author: Ian
 """
 
-f = open('ExperimentData.txt', 'r')
+f = open('/reg/g/psdm/data/ExpNameDb/experiment-db.dat', 'r')
 a = f.read()
 f.close()
 
@@ -17,7 +17,7 @@ apple = g.read()
 g.close()
 
 
-f = open("ExperimentData.txt", "r")
+f = open("/reg/g/psdm/data/ExpNameDb/experiment-db.dat", "r")
 dataLines = f.readlines()
 newlineRemoved = []
 for line in dataLines:
