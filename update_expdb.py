@@ -19,7 +19,7 @@ oldVersionNumber = int(lastLine.split()[0])
 
 newVer = oldVersionNumber + 1
 
-f = open("meta.yaml")
+f = open("/reg/g/psdm/sw/conda/manage/recipes/psana/psana-expdb/meta.yaml","r")
 
 oldMeta = f.read()
 
@@ -27,7 +27,7 @@ splitUp = oldMeta.split(".",1)
 
 newMeta = splitUp[0] + "." + str(newVer)+"\""+splitUp[1].split("\"",1)[1]
 
-j = open('meta.yaml', 'w')
+j = open('/reg/g/psdm/sw/conda/manage/recipes/psana/psana-expdb/meta.yaml', 'w')
 j.write(newMeta)
 j.close
 
