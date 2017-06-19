@@ -1,5 +1,5 @@
 from setuptools import setup
 
-setup(name = 'toconda',
+setup(name = 'psana-expdb',
       py_modules = ["PressedExpData"],
 )
