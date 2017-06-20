@@ -19,6 +19,7 @@ g.close()
 
 f = open("/reg/g/psdm/data/ExpNameDb/experiment-db.dat", "r")
 dataLines = f.readlines()
+print(len(dataLines))
 newlineRemoved = []
 for line in dataLines:
     new = line.replace('\n','') 
