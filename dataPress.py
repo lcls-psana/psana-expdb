@@ -50,7 +50,7 @@ cFile.close()
 
 pear = apple.replace('STRING', a)
 
-h = open('PressedExpData.py', 'w')
+h = open('ExpNameData.py', 'w')
 h.write(pear)
 h.close()
 
