@@ -2,6 +2,8 @@
 
 data = '''STRING'''
 
+data = data.replace("	", "    ")
+data = data[:-1]
 rows = data.split('\n')
 ExpNo = {}
 for row in rows:
