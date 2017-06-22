@@ -4,7 +4,6 @@ data = '''STRING'''
 
 data = data.replace("	", "    ")
 data = data[:-1]
-data = data.replace('\r','')
 rows = data.split('\n')
 ExpNo = {}
 for row in rows:

@@ -54,9 +54,3 @@ h = open('ExpNameData.py', 'w')
 h.write(pear)
 h.close()
 
-#expno = {}
-#with open('C:\Users\Ian\Desktop\ExperimentData.txt') as e:
-#    for line in e:
-#        splitLine = line.split()
-#        expno[int(splitLine[0])] = ','.join(splitLine[1:])
-#e.close()
